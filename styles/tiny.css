@@ -1,0 +1,20 @@
+@media (width <= 374px) {
+    .wrapper {
+        grid-template-columns: 1fr;
+        grid-template-areas:
+            "content"
+            "nav";
+    }
+
+    nav ul {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .main-head,
+    .main-footer,
+    .side,
+    .ad {
+        display: none;
+    }
+}
