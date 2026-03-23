@@ -16,4 +16,4 @@ Students will collaborate to add:
 2. Who will implement dark mode?
     * Partner name: JAMES SCHMIDT
 3. Who will implement responsive images?
-    * Partner name: THEY WILL
+    * Partner name: Logan Kasmier
