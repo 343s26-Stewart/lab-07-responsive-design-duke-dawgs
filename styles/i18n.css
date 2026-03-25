@@ -1,5 +1,5 @@
 .wrapper {
     direction: rtl;
-    writing-mode: sideways-lr;
+    writing-mode: horizontal-tb;
     text-orientation: upright;
 }
