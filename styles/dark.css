@@ -1,0 +1,42 @@
+
+@media (prefers-color-scheme: dark) {
+
+    body:not(.light) {
+        background-color: #1a1a2e;
+        color: #e0e0e0;
+    }
+
+    body.debug:not(.light) header.main-head,
+    body.debug:not(.light) nav.main-nav,
+    body.debug:not(.light) main.content,
+    body.debug:not(.light) aside.side,
+    body.debug:not(.light) div.ad,
+    body.debug:not(.light) footer.main-footer {
+        background-color: #121212;
+        color: #e0e0e0;
+    }
+
+    body:not(.light) a {
+        color: #a8b4e8;
+    }
+}
+
+
+body.dark {
+    background-color: #1a1a2e;
+    color: #e0e0e0;
+}
+
+body.dark.debug header.main-head,
+body.dark.debug nav.main-nav,
+body.dark.debug main.content,
+body.dark.debug aside.side,
+body.dark.debug div.ad,
+body.dark.debug footer.main-footer {
+    background-color: #121212;
+    color: #e0e0e0;
+}
+
+body.dark a {
+    color: #a8b4e8;
+}
